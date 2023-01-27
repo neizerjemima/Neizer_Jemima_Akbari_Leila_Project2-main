@@ -40,6 +40,10 @@ body {
     text-align: center;
 }
 
+.color-backs {
+    background-color: #d2d2d2;
+}
+
 
 
 
@@ -161,6 +165,12 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     margin-top: 12%;
     margin-left: 40px;  
 }
+#shop {
+    width: 1200px;
+    height: 615px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 #shop-product {
     background-color: #d2d2d2;
@@ -234,10 +244,70 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     padding-right: 40px;
 }
 
+#blogg {
+    width: 1200px;
+    height: 638px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#blog {
+    width: 170px;
+    height: 35px;
+    font-size: 8px;
+    grid-column: 6/7;
+    margin-top: 40px;
+}
+#blog-img1 {
+    width: 530px;
+    height: 231px;
+    grid-column: 1/6;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+#blog-img2 {
+    width: 100px;
+    height: 100px;
+    grid-column: 8/9;
+    grid-row: 2/3;
+    margin-top: 41px;
+    margin-left: 70px;
+    border-radius: 100%;
+}
+#blog-img3 {
+    width: 100px;
+    height: 100px;
+    grid-column: 8/9;
+    grid-row: 3/4;
+    margin-top: -90px;
+    margin-left: 70px;
+    border-radius: 100%;
+}
+
+#blog-info1 {
+    width: 470px;
+    height: 109px;
+    grid-column: 2/6;
+    margin-top: -40px;
+}
+#blog-info2 {
+    width: 200px;
+    height: 96px;
+    grid-column: 10/12;
+    grid-row: 2/3;
+    margin-top: 43px;
+}
+#blog-info3 {
+    width: 200px;
+    height: 96px;
+    grid-column: 10/12;
+    grid-row: 3/4;
+    margin-top: -55%;
+}
+
 #history {
     width: 170px;
     height: 25px;
-    font-size: 14px;
+    font-size: 8px;
     grid-column: 2/2;
     margin-top: 80px;
 }
@@ -290,14 +360,13 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 /* 6. ---Footer--- */
 
 #footer-con-full {
-    height: 100px;
+    height: 254px;
     margin-top: 150px;
 }
 
 #footer-nav {
-    width: 640px;
-    height: 70px;
-    margin-top: 15px;
-    grid-column: 1/8;
-    margin-left: 20px;
+    width: 1128px;
+    height: 117px;
+    margin-top: 40px;
+    grid-column: 2/12;
 }
